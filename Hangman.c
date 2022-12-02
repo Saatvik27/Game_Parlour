@@ -6,7 +6,7 @@ int main(){
     printf("Enter a hint :");
     gets(hint);
     int size=0;
-    int guess[6];
+    char guess[6];
     for(int i=0;i!='\0';i++){
         size+=1;
     }
@@ -17,7 +17,17 @@ int main(){
     for(int i=0;i<6;i++){
         printf("Enter Guess : ");
         scanf("%c",&guess[i]);
-        for(int j=0;s!=)
+        for(int j=0;word[j]!='\0';j++){
+            for(int k=0;k<i;k++){
+                if(word[j]==guess[k]){
+                    printf("%c",guess[k]);
+                }
+            }
+             else{
+                printf("_");
+            }
+        }
+        printf("\n");
     }
     return 0;
 }
