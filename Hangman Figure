@@ -1,0 +1,123 @@
+#include<stdio.h>
+int hangman1(){
+printf("__________________\n");
+printf("\t|\n");
+printf("\t|\n");
+printf("     ________\n");
+printf("    |        |\n");
+printf("    |        |\n");
+printf("    |        |\n");
+printf("    |________|\n");
+printf("\t|\n");
+printf("       /|\\\n");
+printf("      / | \\\n");
+printf("     /  |  \\\n");
+printf("    /   |   \\\n");
+printf("\t|\n");
+printf("       / \\\n");
+printf("      /   \\\n");
+printf("     /     \\\n");
+printf("    /       \\\n");
+}
+
+int hangman2(){
+printf("__________________\n");
+printf("\t|\n");
+printf("\t|\n");
+printf("     ________\n");
+printf("    |        |\n");
+printf("    |        |\n");
+printf("    |        |\n");
+printf("    |________|\n");
+printf("\t|\n");
+printf("       /|\\\n");
+printf("      / | \\\n");
+printf("     /  |  \\\n");
+printf("    /   |   \\\n");
+printf("\t|\n");
+printf("         \\\n");
+printf("          \\\n");
+printf("           \\\n");
+printf("            \\\n");
+}
+
+int hangman3(){
+printf("__________________\n");
+printf("\t|\n");
+printf("\t|\n");
+printf("     ________\n");
+printf("    |        |\n");
+printf("    |        |\n");
+printf("    |        |\n");
+printf("    |________|\n");
+printf("\t|\n");
+printf("       /|\\\n");
+printf("      / | \\\n");
+printf("     /  |  \\\n");
+printf("    /   |   \\\n");
+printf("\t|\n");}
+
+int hangman4(){
+printf("__________________\n");
+printf("\t|\n");
+printf("\t|\n");
+printf("     ________\n");
+printf("    |        |\n");
+printf("    |        |\n");
+printf("    |        |\n");
+printf("    |________|\n");
+printf("\t|\n");
+printf("       /|\n");
+printf("      / | \n");
+printf("     /  |  \n");
+printf("    /   |   \n");
+printf("\t|\n");}
+
+int hangman5(){
+printf("__________________\n");
+printf("\t|\n");
+printf("\t|\n");
+printf("     ________\n");
+printf("    |        |\n");
+printf("    |        |\n");
+printf("    |        |\n");
+printf("    |________|\n");
+printf("\t|\n");
+printf("        |\n");
+printf("        | \n");
+printf("        |  \n");
+printf("        |   \n");
+printf("\t|\n");}
+int hangman6(){
+printf("__________________\n");
+printf("\t|\n");
+printf("\t|\n");
+printf("     ________\n");
+printf("    |        |\n");
+printf("    |        |\n");
+printf("    |        |\n");
+printf("    |________|\n");}
+int hangman7(){
+printf("__________________\n");
+printf("\t|\n");
+printf("\t|\n");}
+
+int gameover(){
+printf(" ___              __");
+printf("|       /\  |\  /| |");
+printf("|   _  /__\ | \/ | |__");
+printf("|    |/    \|    | |");
+printf("|____| ")
+}
+
+int main(){
+hangman1();
+hangman2();
+hangman3();
+hangman4();
+hangman5();
+hangman6();
+hangman7();
+}
+
+
